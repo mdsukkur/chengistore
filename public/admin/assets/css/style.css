@@ -1,0 +1,296 @@
+.loader {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    opacity: 0.8;
+    z-index: 99999;
+}
+
+.warning {
+    color: #f59c1a !important;
+}
+
+.btn.btn-warning,
+.btn.btn-warning:hover {
+    color: #fff !important;
+    background-color: #f59c1a !important;
+    border-color: #f59c1a !important;
+}
+
+.danger {
+    color: #F35A57 !important;
+}
+
+.btn.btn-danger,
+.btn.btn-danger:hover {
+    color: #fff !important;
+    background-color: #F35A57 !important;
+    border-color: #F35A57 !important;
+}
+
+.primary {
+    color: #09A3A3 !important;
+}
+
+.btn.btn-primary,
+.btn.btn-primary:hover {
+    color: #fff !important;
+    background-color: #09A3A3 !important;
+    border-color: #09A3A3 !important;
+}
+
+.btn-xs {
+    padding: 2px 6px !important;
+    font-size: 12px !important;
+    line-height: 1.5 !important;
+}
+
+.table th, .table td {
+    padding: 10px !important;
+}
+
+
+
+/*
+=======================================================
+Card Style Start From Here....
+=======================================================
+*/
+.card-wrapper {
+    box-shadow: none;
+}
+
+.card-wrapper .card-body {
+    padding: 8px 10px;
+}
+
+.card-wrapper .custom-card-footer {
+    background-color: #F5F5F5;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 15px 10px;
+}
+
+.card-wrapper .custom-card-footer i {
+    float: right;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+p.custom-card-text {
+    color: #fff;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.custom-card-text.card-total {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.credit-card-wrapper {
+    border: 1px solid #8C5557;
+}
+
+.credit-card-wrapper .card-body {
+    background-color: #8C5557;
+}
+
+.credit-card-wrapper .custom-card-footer {
+    border-top: 1px solid #8C5557;
+    color: #8C5557;
+}
+
+.credit-card-wrapper .custom-card-footer a {
+    color: #8C5557;
+}
+
+.credit-card-wrapper .custom-card-footer i {
+    background-color: #8C5557;
+    color: #fff;
+}
+
+.debit-card-wrapper {
+    border: 1px solid #808C55;
+}
+
+.debit-card-wrapper .card-body {
+    background-color: #808C55;
+}
+
+.debit-card-wrapper .custom-card-footer {
+    border-top: 1px solid #808C55;
+    color: #808C55;
+}
+
+.debit-card-wrapper .custom-card-footer a {
+    color: #808C55;
+}
+
+.debit-card-wrapper .custom-card-footer i {
+    background-color: #808C55;
+    color: #fff;
+}
+
+.wallet-card-wrapper {
+    border: 1px solid #3880A8;
+}
+
+.wallet-card-wrapper .card-body {
+    background-color: #3880A8;
+}
+
+.wallet-card-wrapper .custom-card-footer {
+    border-top: 1px solid #3880A8;
+    color: #3880A8;
+}
+
+.wallet-card-wrapper .custom-card-footer a {
+    color: #3880A8;
+}
+
+.wallet-card-wrapper .custom-card-footer i {
+    background-color: #3880A8;
+    color: #fff;
+}
+
+.withdrawable-card-wrapper {
+    border: 1px solid #3F4454;
+}
+
+.withdrawable-card-wrapper .card-body {
+    background-color: #3F4454;
+}
+
+.withdrawable-card-wrapper .custom-card-footer {
+    border-top: 1px solid #3F4454;
+    color: #3F4454;
+}
+
+.withdrawable-card-wrapper .custom-card-footer a {
+    color: #3F4454;
+}
+
+.withdrawable-card-wrapper .custom-card-footer i {
+    background-color: #3F4454;
+    color: #fff;
+}
+
+.client-card-wrapper {
+    border: 1px solid #3F4454;
+}
+
+.client-card-wrapper .card-body {
+    padding: 0;
+}
+
+.client-card-wrapper .card-body {
+    padding: 0;
+}
+
+.client-card-wrapper .card-body table {
+    border: none;
+    margin-bottom: 0px;
+}
+
+.client-card-wrapper .card-body table td:first-child {
+    border-right: 1px solid #fff;
+}
+
+.client-card-wrapper .card-body table th {
+    border-top: none;
+}
+
+.client-card-wrapper .card-body table tr:last-child td {
+    border-bottom: none
+}
+
+.client-card-wrapper .card-body table td,
+.client-card-wrapper .card-body table th {
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+}
+
+.client-card-wrapper .card-body {
+    background-color: #3F4454;
+}
+
+.client-card-wrapper .custom-card-footer {
+    border-top: 1px solid #3F4454;
+    color: #3F4454;
+}
+
+.client-card-wrapper .custom-card-footer a {
+    color: #3F4454;
+}
+
+.client-card-wrapper .custom-card-footer i {
+    background-color: #3F4454;
+    color: #fff;
+}
+
+.field-icon {
+    float: right;
+    margin-right: 2%;
+    margin-top: -29px;
+    font-size: 18px;
+    color: #DC3545;
+}
+
+.field-icon:hover {
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+}
+
+.card-header {
+    background-color: #4F0F40 !important;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.card {
+    border-radius: 15px !important;
+}
+
+.table td {
+    text-align: center;
+}
+
+.modal-header {
+    background-color: #4F0F40 !important;
+    color: #fff !important;
+}
+
+.modal-header button span {
+    padding: 0px 9px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+.t-head {
+    background: #0c1d2f;
+    color: #fff;
+    text-align: center;
+    padding: 14px 0 0 0;
+}
+
+.t-c {
+    border: 1px solid #0c1d2f;
+    padding: 10px 5px;
+    text-align: center;
+}
